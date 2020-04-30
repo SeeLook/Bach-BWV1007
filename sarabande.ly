@@ -10,8 +10,14 @@
 
 
 \header {
-  title = \markup  \center-column { \fontsize #3 {"Suita G-dur BWV 1007" } "Sarabanda" " "}
+  title = \markup  \center-column { \fontsize #3 {"Suita G-dur BWV 1007" } "Sarabande" " "}
   composer = \markup \center-column { "Johan Sebastian Bach" " " }
+  %arranger = "oprac. W. Gromolak"
+
+  %meter = \markup \italic " "
+
+  %tagline = \aTag
+  %copyright = \aCopy
 }
 
 
@@ -21,67 +27,63 @@
     \set Staff.midiInstrument="acoustic guitar (nylon)"
     \override Staff.NoteCollision #'merge-differently-headed = ##t
     \override Staff.NoteCollision #'merge-differently-dotted = ##t
-    %\override Staff.Stem #'length-fraction = #1.2
+    \override Staff.Stem #'length-fraction = #1.2
     \time 3/4
     \key g \major
     \clef "G_8"
     \relative c {
-      <<
-        {
-          \once \override TextScript #'extra-offset = #'(-7 . 4)
-          h'4_\SCORDATURE c4. h8
-          | % 2
-          fis16 a h c h4 a8 g
-          | % 3
-          d' f, e8. \tuplet 3/2 {d32 c32 h32} c8 e
-          | % 4
-          fis16 c' h g fis4 e8 d
-          | % 5
-          a'16 fis d c h8. g16 h d g a
-          | % 6
-          h g e d cis8. a32 h cis16 d e fis
-          | % 7
-          g cis d cis d a g fis e g fis d
-          | % 8
-          a d e cis d4 d,\bar ":|.:" %
-          fis'8 e16 d c'4. h16 a
-          | % 18
-          h fis g e dis8. e16 fis g a h
-          | % 19
-          dis, a' h c h8 a16 g fis e a fis
-          | % 20
-          g e fis dis e4 e,
-          | % 21
-          d'8. e32 f e8. fis16 g a h c
-          | % 22
-          gis, d'' c h c8. h16 a g fis e
-          | % 23
-          d16*5 e16 fis g a c h g
-          | % 24
-          d g a fis g4 g,\bar ":|."
-
-          |
-        }\\% 33
-
-        {
-          <d' g,>4 <g,g'>2
-          s4 <g d'>4 s4
-          s2.
-          s4 <d a'> s4
-          s2.
-          s2.
-          s2.
-          s2.
-          <a' d,>8 s8 <d, a' fis'>2
-          <d' g,>4 a4 s4
-          s2.
-          s2.
-          h4 <g c e>4 s4
-          s4 <a e'>4
-
-
-        }
-      >> \bar ":|."
+      
+     <<{ \once \override TextScript #'extra-offset = #'(-8 . 5) % wyskakuje ostrzeżenie -> log
+    h'4^1 _\SCORDATURE c4.^4 h8^1
+      | % 2
+      fis16_\4-3 a_\3-1 h^0 c_\3-3 h4^1\startTrillSpan a8_\3-1\stopTrillSpan g-0
+      | % 3
+      [d'^4 f,^3] e8.^1\tuplet 3/2 {d32_4 c_2 h_1} c8 e_1\4
+      | % 4
+      fis16_4 c'\2-1 h^0 g\4-2 fis4^1\startTrillSpan e8^1\stopTrillSpan d^0
+      | % 5
+      a'16^1 fis^4 d^0 c^2 h8.^1 g16^4 h^\5-1 d^0 g^0 a^1
+      | % 6
+      h^0 g^0 e\5-4 d^1 cis8.^2\startTrillSpan a32^0\stopTrillSpan h^1 cis16^3 d^0 e^1 fis^4
+      | % 7
+      g^0 cis^1 d^2 cis d a^1 g^0 fis^4 e^1 g^0 fis^4 d^0
+      | % 8
+      a^0 d e^1 cis^4 d4 d,\bar ":|.:" % 
+      fis'8^1 e16\5-4 d^0 c'4.\4-2 h16\3-1 a\4-4     
+      | % 18
+      h\3-1 fis^1 g^0 e^2 dis8.^1\startTrillSpan e16^2\stopTrillSpan fis^4 g^0 a^2 h^0
+      | % 19
+      dis,^1 a'^2 h^0 c^1 h8^0\startTrillSpan a16^2\stopTrillSpan g^0 fis^4 e^1 a^1 fis^4
+      | % 20
+      g^0 e^1 fis^4 dis^1 e4^2 e,^1
+      | % 21
+      d'8.^0 e32^1 f^2 e8.^1 fis16^3 g^0 a h^0 c^1_\3
+      | % 22
+      gis,^3_\6 d''^4_\3 c^2 h^1 c8.^1 h16^1 a^4_\4 g^2 fis^1 e^4_\5
+      | % 23
+      d16^2 e16^4 fis^1_\4 g^2 a^4 c^2_\3 h^1 g^0
+      | % 24
+      d^0 g^0 a^1 fis^4 g4^0 g,^4\bar ":|."
+      
+      |}\\% 33
+       
+       {<d' g,_2>4 <g,_2g'^3>2
+        s4 <g_2 d'>4 s4
+        s2.
+        s4 <d a'> s4
+        s2.
+        s2.
+        s2.
+        s2.
+        <a' d,>8 s8 <d, a' fis'>2
+        <d' g,_2>4 a4 s4
+        s2.
+        s2.
+        h4_2 <g _4c_2 e>4 s4
+        s4 <a_4 e'_3>4
+        
+        
+       }>> \bar ":|."
     }
 
   }
