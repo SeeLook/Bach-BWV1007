@@ -40,22 +40,22 @@
       | % 3
       [d'^4 f,^3] e8.^1\tuplet 3/2 {d32_4 c_2 h_1} c8 e_1\4
       | % 4
-      fis16_4 c'\2-1 h^0 g\4-2 fis4^1\startTrillSpan e8^1\stopTrillSpan d^0
+      fis16_4 c'_\2^1 h^0 g_\4^2 fis4^1\startTrillSpan e8^1\stopTrillSpan d^0
       | % 5
-      a'16^1 fis^4 d^0 c^2 h8.^1 g16^4 h^\5-1 d^0 g^0 a^1
+      a'16^1 fis^4 d^0 c^2 h8.^1 g16^4 h_\5^1 d^0 g^0 a^1
       | % 6
-      h^0 g^0 e\5-4 d^1 cis8.^2\startTrillSpan a32^0\stopTrillSpan h^1 cis16^3 d^0 e^1 fis^4
+      h^0 g^0 e_\5^4 d^1 cis8.^2\startTrillSpan a32^0\stopTrillSpan h^1 cis16^3 d^0 e^1 fis^4
       | % 7
       g^0 cis^1 d^2 cis d a^1 g^0 fis^4 e^1 g^0 fis^4 d^0
       | % 8
       a^0 d e^1 cis^4 d4 d,\bar ":|.:" % 
-      fis'8^1 e16\5-4 d^0 c'4.\4-2 h16\3-1 a\4-4     
+      fis'8^1 e16_\5^4 d^0 c'4.^\4^2 h16_\3^1 a_\4^4     
       | % 18
       h\3-1 fis^1 g^0 e^2 dis8.^1\startTrillSpan e16^2\stopTrillSpan fis^4 g^0 a^2 h^0
       | % 19
       dis,^1 a'^2 h^0 c^1 h8^0\startTrillSpan a16^2\stopTrillSpan g^0 fis^4 e^1 a^1 fis^4
       | % 20
-      g^0 e^1 fis^4 dis^1 e4^2 e,^1
+      g^0 e^1 fis^4 dis^1 e4^2 e,^1-
       | % 21
       d'8.^0 e32^1 f^2 e8.^1 fis16^3 g^0 a h^0 c^1_\3
       | % 22
@@ -79,7 +79,7 @@
         <d' g,_2>4 a4 s4
         s2.
         s2.
-        h4_2 <g _4c_2 e>4 s4
+        h4_1  <g _4c_2 e>4 s4
         s4 <a_4 e'_3>4
         
         
