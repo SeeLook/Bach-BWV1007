@@ -9,19 +9,16 @@
 #(set-global-staff-size 21)
 
 
-\header {
-  title = \markup  \center-column { \fontsize #3 {"Suita G-dur BWV 1007" } "Sarabande" " "}
-  composer = \markup \center-column { "Johan Sebastian Bach" " " }
-  %arranger = "oprac. W. Gromolak"
-
-  %meter = \markup \italic " "
-
-  %tagline = \aTag
-  %copyright = \aCopy
-}
+%\header {
+ % title = \markup  \center-column { \fontsize #3 {"Suita G-dur BWV 1007" } "Sarabande" " "}
+  %composer = \markup \center-column { "Johan Sebastian Bach" " " }
+%}
 
 
 \score {
+    \header {
+    piece = \markup { \fontsize #2 "Sarabande" }
+  }
 
   \new Staff {
     \set Staff.midiInstrument="acoustic guitar (nylon)"
@@ -38,7 +35,7 @@
       | % 2
       fis16_\4-3 a_\3-1 h^0 c_\3-3 h4^1\startTrillSpan a8_\3-1\stopTrillSpan g-0
       | % 3
-      [d'^4 f,^3] e8.^1\tuplet 3/2 {d32_4 c_2 h_1} c8 e_1\4
+      d'^4 [f,^3] e8.^1\tuplet 3/2 {d32_4 c_2 h_1} c8 e_1\4
       | % 4
       fis16_4 c'_\2^1 h^0 g_\4^2 fis4^1\startTrillSpan e8^1\stopTrillSpan d^0
       | % 5
@@ -55,7 +52,7 @@
       | % 19
       dis,^1 a'^2 h^0 c^1 h8^0\startTrillSpan a16^2\stopTrillSpan g^0 fis^4 e^1 a^1 fis^4
       | % 20
-      g^0 e^1 fis^4 dis^1 e4^2 e,^1-
+      g^0 e^1 fis^4 dis^1 e4^2 e,^1
       | % 21
       d'8.^0 e32^1 f^2 e8.^1 fis16^3 g^0 a h^0 c^1_\3
       | % 22

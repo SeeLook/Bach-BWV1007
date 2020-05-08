@@ -7,13 +7,16 @@
 #(set-global-staff-size 21)
 
 
-\header {
-  title = \markup  \center-column { \fontsize #3 {"Suita G-dur BWV 1007" } "Courante" " "}
-  composer = \markup \center-column { "Johan Sebastian Bach" " " }
-}
+%\header {
+%  title = \markup  \center-column { \fontsize #3 {"Suite G-dur BWV 1007" } "Courante" " "}
+%  composer = \markup \center-column { "Johann Sebastian Bach" " " }
+%}
 
 
 \score {
+  \header {
+    piece = \markup { \fontsize #2 "Courante" }
+  }
 
   \new Staff {
     \set Staff.midiInstrument="acoustic guitar (nylon)"

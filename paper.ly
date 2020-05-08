@@ -13,7 +13,7 @@
   %annotate-spacing = ##t
   ragged-last = ##f
   ragged-right = ##f
-  print-page-number = ##f
+  %print-page-number = ##f
   between-system-padding = #6  %add space above and below
 
 }
