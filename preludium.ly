@@ -1,3 +1,8 @@
+% This file is part of "Suita G-dur BWV 1007" project
+% Copyright on the terms of Creative Commons Legal Code CC0 1.0 Universal license
+% Authors: Martyna Danysz (martynadanysz@gmail.com) and Tomasz Bojczuk (seelook@gmail.com)
+
+
 \version "2.19.80"
 
 
@@ -29,24 +34,24 @@
     \clef "G_8"
     \relative c {
       \once \override TextScript #'extra-offset = #'(-7 . 1)
-      g16-3 _\SCORDATURE d'-\pfi h'-\mfi a-1-\ifi h-\afi d,-\ifi h'-\afi d,-\ifi g, d' h' a h d, h' d,      | % 1
-      g, e' c' h c e, c' e, g, e' c' h c e, c' e,      | % 2
-      g, fis'-2 c' h c fis, c' fis, g, fis' c' h c fis, c' fis,      | % 3
-      g,-\pfi g'-4-\pfi h-2-\mfi a-1-\ifi h-\afi g-4-\ifi h-\afi g-4-\ifi g,-\pfi g'-\ifi h-\afi a-\mfi h-\afi g-\ifi h-\afi fis-2-\ifi      | % 4
-      g,-4 e'-1 h'-3( a)-1 h-3( g)-0 fis-3-\pfi g-2 e-1-\pfi g fis-2-\pfi g h,-1-\pfi d-0-\mfi cis-3-\ifi( h)-1      | % 5
+      g16-3 _\SCORDATURE d'-\pfi h'-\mfi (a)-1-\ifi h-\afi d,-\ifi h'-\afi d,-\ifi g, d' h' (a) h d, h' d,      | % 1
+      g, e' c' (h) c e, c' e, g, e' c' (h) c e, c' e,      | % 2
+      g, fis'-2 c' (h) c fis, c' fis, g, fis' c' (h) c fis, c' fis,      | % 3
+      g,-\pfi g'-4-\pfi h-2-\mfi (a)-1-\ifi h-\afi g-4-\ifi h-\afi g-4-\ifi g,-\pfi g'-\ifi h-\afi (a)-\mfi h-\afi g-\ifi h-\afi fis-2-\ifi      | % 4
+      g,-4 e'-1 h'-3( a)-1 h-3 g-0 fis-3-\pfi g-2 e-1-\pfi g fis-2-\pfi g h,-1-\pfi d-0-\mfi cis-3-\ifi( h)-1      | % 5
       cis-3-\pfi g'-0-\pfi a-1-\mfi( g)-\ifi a-1 g-4 a g cis, g' a( g) a g a g      | % 6
       fis-3 a-1-\ifi d-2-\mfi( cis)-1 d-\afi a-1 g-4 a fis-3 a g-4 a d,-\ifi fis-4-\mfi e-1-\ifi( d)      | % 7
-      e,-1-\pfi h'-2-\afi g'-0 fis-4 g h, g' h, e, h' g' fis g h, g' h,      | % 8
+      e,-1-\pfi h'-2-\afi g'-0 (fis)-4 g h, g' h, e, h' g' (fis) g h, g' h,      | % 8
       e,-1 cis'-4 d-0 e-2 d cis-4 h-1 a \laissezVibrer g'-4 fis-3 e-1 d'-2 cis-1 h-3 a-1 g-4      | % 9
       fis-3 e-1 d-3 d'-2 a-1 d fis,-3 a d,-0 e-1 fis-3 a-1 g-4 fis-3 e-1 d-0      | % 10
       gis-1 d-3 f-4( e)-2 f-4( d) gis d h' d, f( e) f( d) gis-\mfi d-\ifi      | % 11
       c-4-\pfi e-2 a-3 h c a e( d) c-\pfi e a h c a fis e      | % 12
-      dis-1( fis)-4 dis fis a-1 fis-3 a-1 fis-2 dis-4 fis-2 dis fis a-1 fis a fis      | % 13
+      dis-1( fis)-4 dis (fis) a-1 fis-3 a-1 fis-2 dis-4 (fis)-2 dis (fis) a-1 fis a fis      | % 13
       g-4 fis-3 e-1 g-4 fis-1 g-2 a-4 fis-1 g-4( fis)-3 e-1 d-0 c-2 h-1 a-0 g-4      | % 14
-      fis-3-\pfi c'-2-\pfi d-4( c) d-0 c-2 d c fis, c' d c d( c) d c      | % 15
-      g-4 h f'-2( e) f h, f' h, g h f' e f h, f' h,      | % 16
+      fis-3-\pfi c'-2-\pfi d-4( c) d-0 c-2 d c fis, c' d (c )d c d c      | % 15
+      g-4 h f'-2( e) f h, f' h, g h f' (e) f h, f' h,      | % 16
       g-4 c-2 e-1( d)-0 e c e c g c e( d) e c e c      | % 17
-      g-3 fis'-2 c'-4 h-0 c fis, c' fis, g, fis' c' h c fis, c' fis,      | % 18
+      g-3 fis'-2 c'-4 (h)-0 c fis, c' fis, g, fis' c' (h) c fis, c' fis,      | % 18
       g,-3 d' h' a-1 h g-0 fis-3 e-1 d-4 c-2 h-1 a-0 g-4 fis-3 e-1 d-0      | % 19
       cis'-4-\pfi a'-1-\ifi e'-0-\afi fis-1-\mfi g-3-\afi e-\ifi fis-\mfi g-\afi cis,,-\pfi a'-\ifi e'-0-\afi fis-\mfi g-\afi e-\ifi fis-\mfi g-\afi      | % 20
       c,,!-2-\pfi a'-1-\ifi d-2-\mfi e-0-\afi fis-1-\mfi d-\ifi e-\mfi fis-\afi c,-"P" a'-\ifi d-\mfi e-\afi fis-\mfi d-\ifi e-\mfi fis-\afi      | % 21
