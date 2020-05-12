@@ -1,4 +1,4 @@
-% This file is part of "Suita G-dur BWV 1007" project
+% This file is part of "Cello Suite in G-major BWV 1007" project
 % Copyright on the terms of Creative Commons Legal Code CC0 1.0 Universal license
 % Authors: Martyna Danysz (martynadanysz@gmail.com) and Tomasz Bojczuk (seelook@gmail.com)
 
