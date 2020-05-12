@@ -12,7 +12,7 @@
 
 
 \header {
-  title = \markup  \center-column { \fontsize #3 {"Suite G-major BWV 1007" } " "}
+  title = \markup  \center-column { \fontsize #3 {"Cello Suite in G-major BWV 1007" } " "}
   composer = \markup \center-column { "Johann Sebastian Bach" " " }
 }
 

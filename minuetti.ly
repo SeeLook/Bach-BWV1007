@@ -1,4 +1,4 @@
-% This file is part of "Suita G-dur BWV 1007" project
+% This file is part of "Cello Suite in G-major BWV 1007" project
 % Copyright on the terms of Creative Commons Legal Code CC0 1.0 Universal license
 % Authors: Martyna Danysz (martynadanysz@gmail.com) and Tomasz Bojczuk (seelook@gmail.com)
 
@@ -12,7 +12,7 @@
 
 
 %\header {
-%  title = \markup  \center-column { \fontsize #3 {"Suite G-dur BWV 1007" } "Menuetto I & II" " "}
+%  title = \markup  \center-column { \fontsize #3 {"Cello Suite in G-major BWV 1007" } "Menuetto I & II" " "}
 %  composer = \markup \center-column { "Johann Sebastian Bach" " " }
 %}
 
@@ -37,7 +37,7 @@
       (c16)^4 ] | % 2
       h8 [ a8 ] g8_\4^4 [ fis8^3 ] g8 [
       d8^0 ] | % 3
-      e8_\5^4 [ g8_\4^1 ] c8^1 [ a8 ]_\4-4 fis8^1 [
+      e8_\5^4 [ g8_\4^1 ] c8^1 [ a8_\4-4] fis8^1 [
       d'8_\3^4 ] | % 4
       <g,,_2 d'_0 h'^1>2 \trill <d'_0 a'^2>4 | % 5
       a8 [ fis'8_\4^1 ] c'4^2 h8_\3-1 [

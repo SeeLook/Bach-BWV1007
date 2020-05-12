@@ -1,4 +1,4 @@
-% This file is part of "Suita G-dur BWV 1007" project
+% This file is part of "Cello Suite in G-major BWV 1007" project
 % Copyright on the terms of Creative Commons Legal Code CC0 1.0 Universal license
 % Authors: Martyna Danysz (martynadanysz@gmail.com) and Tomasz Bojczuk (seelook@gmail.com)
 
@@ -14,7 +14,7 @@
 
 
 %\header {
- % title = \markup  \center-column { \fontsize #3 {"Suita G-dur BWV 1007" } "Sarabande" " "}
+ % title = \markup  \center-column { \fontsize #3 {"Cello Suite in G-major BWV 1007" } "Sarabande" " "}
   %composer = \markup \center-column { "Johan Sebastian Bach" " " }
 %}
 
