@@ -32,6 +32,7 @@
     \key g \major
     \clef "G_8"
     \relative c {
+      \tempo "Moderato" 4=100
       \once \override TextScript #'extra-offset = #'(-8 . 3)
       g16_\pfi^3_\6 _\SCORDATURE d'^0_\ifi h'^2_\3_\mfi (a-1) h_\mfi d,-\ifi h'-\mfi d,-\ifi g, d' h' (a) h d, h' d,      | % 1  g16_\pfi^3_\6 -> palec p się jakoś dziwnie przesunął
       g, e'^1 c'^4_\3 (h)^3 c e, c' e, g, e' c' (h) c e, c' e,      | % 2

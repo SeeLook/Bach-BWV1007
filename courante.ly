@@ -31,6 +31,7 @@
     \clef "G_8"
     \relative c' {
       \repeat volta 2 {
+        \tempo "Allegro maestoso" 4=100
         \once \override TextScript #'extra-offset = #'(-6 . 0)
         \partial8  g8^0 _\SCORDATURE | % 2
         g8 [  d8_0 g,8_4 h'16^0  (c16)^1 ]

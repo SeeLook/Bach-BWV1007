@@ -34,7 +34,8 @@
     \clef "G_8"
     \relative c {
       
-     <<{ \once \override TextScript #'extra-offset = #'(-8 . 5) % wyskakuje ostrzeżenie -> log
+     <<{ \tempo "Largo" 8=80
+       \once \override TextScript #'extra-offset = #'(-8 . 5) % wyskakuje ostrzeżenie -> log
     h'4^1 _\SCORDATURE c4.^4 h8^1
       | % 2
       fis16_\4-3 a_\3-1 h^0 c_\3-3 h4^1\startTrillSpan a8_\3-1\stopTrillSpan g-0
