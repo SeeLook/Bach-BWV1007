@@ -19,7 +19,9 @@
 
 \score {
   \header {
-    piece = \markup { \fontsize #2 "Courante" }
+    piece = \markup { \bold { \fontsize #3 "Courante " }
+     \concat {"(Allegro maestoso " \smaller \smaller \general-align #Y #DOWN \note #"4" #1 " = 100 )" }
+    }
   }
 
   \new Staff {
@@ -31,7 +33,6 @@
     \clef "G_8"
     \relative c' {
       \repeat volta 2 {
-        \tempo "Allegro maestoso" 4=100
         \once \override TextScript #'extra-offset = #'(-6 . 0)
         \partial8  g8^0 _\SCORDATURE | % 2
         g8 [  d8_0 g,8_4 h'16^0  (c16)^1 ]

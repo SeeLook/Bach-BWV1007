@@ -21,7 +21,9 @@
 
 \score {
   \header {
-    piece = \markup { \fontsize #2 "Menuetto I" }
+    piece = \markup { \bold { \fontsize #3 "Menuetto I " }
+     \concat {"( " \smaller \smaller \general-align #Y #DOWN \note #"4" #1 " = 104 )" }
+    }
   }
 
   \new Staff {
@@ -32,7 +34,6 @@
     \key g \major
     \clef "G_8"
     \relative c {
-      \tempo 4=104
       \once \override TextScript #'extra-offset = #'(-8 . 3)
       g8_\6^2 _\SCORDATURE [ d'8 ]^0 h'4_\3^1 a8_\3^1 [ h16^3
       (c16)^4 ] | % 2
@@ -87,7 +88,9 @@
 
 \score {
   \header {
-    piece = \markup { \fontsize #2 "Menuetto II" }
+    piece = \markup { \bold { \fontsize #3 "Menuetto II " }
+     \concat {"( " \smaller \smaller \general-align #Y #DOWN \note #"4" #1 " = 112 )" }
+    }
   }
 
   \new Staff {
@@ -98,7 +101,6 @@
     \key g \minor
     \clef "G_8"
     \relative c {
-      \tempo 4=112
       \once \override TextScript #'extra-offset = #'(-6 . 0)
       b'8^2 _\SCORDATURE [ (a8)^1 ] b8 [ d,8^0 ]
       dis8_\5^4 [ g,8^2 ] |

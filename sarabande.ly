@@ -21,9 +21,10 @@
 
 \score {
     \header {
-    piece = \markup { \fontsize #2 "Sarabande" }
+    piece = \markup { \bold { \fontsize #3 "Sarabande " }
+     \concat {"(Largo " \smaller \smaller \general-align #Y #DOWN \note #"8" #1 " = 80 )" }
+    }
   }
-
   \new Staff {
     \set Staff.midiInstrument="acoustic guitar (nylon)"
     \override Staff.NoteCollision #'merge-differently-headed = ##t
@@ -34,7 +35,7 @@
     \clef "G_8"
     \relative c {
       
-     <<{ \tempo "Largo" 8=80
+     <<{ 
        \once \override TextScript #'extra-offset = #'(-8 . 5) % wyskakuje ostrzeżenie -> log
     h'4^1 _\SCORDATURE c4.^4 h8^1
       | % 2
