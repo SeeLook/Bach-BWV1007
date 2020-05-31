@@ -2,8 +2,7 @@
 % Copyright on the terms of Creative Commons Legal Code CC0 1.0 Universal license
 % Authors: Martyna Danysz (martynadanysz@gmail.com) and Tomasz Bojczuk (seelook@gmail.com)
 
-\version "2.19.80"
-
+\version "2.20.0"
 
 \include "global.ly"
 \include "paper.ly"
@@ -18,6 +17,8 @@
 
 
 \include "preludium.ly"
+
+\include "allemande.ly"
 
 \include "courante.ly"
 
