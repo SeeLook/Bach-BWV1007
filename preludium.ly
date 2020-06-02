@@ -22,7 +22,7 @@
 \score {
   \header {
     piece = \markup { \bold { \fontsize #3 "Prelude " }
-     \concat {"(Moderato " \smaller \smaller \general-align #Y #DOWN \note #"4" #1 " = 100 )" }
+     \concat {"( Moderato " \smaller \smaller \general-align #Y #DOWN \note #"4" #1 " = 100 )" }
     }
   }
 
