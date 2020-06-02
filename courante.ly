@@ -20,7 +20,7 @@
 \score {
   \header {
     piece = \markup { \bold { \fontsize #3 "Courante " }
-     \concat {"(Allegro maestoso " \smaller \smaller \general-align #Y #DOWN \note #"4" #1 " = 100 )" }
+     \concat {"( Allegro maestoso " \smaller \smaller \general-align #Y #DOWN \note #"4" #1 " = 100 )" }
     }
   }
 

@@ -22,7 +22,7 @@
 \score {
     \header {
     piece = \markup { \bold { \fontsize #3 "Sarabande " }
-     \concat {"(Largo " \smaller \smaller \general-align #Y #DOWN \note #"8" #1 " = 80 )" }
+     \concat {"( Largo " \smaller \smaller \general-align #Y #DOWN \note #"8" #1 " = 80 )" }
     }
   }
   \new Staff {
