@@ -37,7 +37,8 @@
     \relative c' {
       \partial 16
       \repeat volta 2 {
-        h16 |
+        \once \override TextScript #'extra-offset = #'(-7 . 2)
+        h16_\SCORDATURE |
         <g, d' h'>4 ~ <d' h'>16 a'16 g16 fis16 g16 d16 e16 fis16 g16 a16 h16 c16 | % 3
         d16 h16 g16 fis16 g16 e16 d16 c16 h16 c16 d16 e16 fis16 g16 a16 h16
         | % 4
