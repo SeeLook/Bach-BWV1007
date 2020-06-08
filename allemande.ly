@@ -66,8 +66,8 @@
         <d, a'^1>4 ~ q16 fis16^4 g16^0 a16^2 d,16^0 e16^1 fis16 g16 a16^2 fis16 d16 c16^2 |
 
         h16^1 d16 g16 fis16 g16 a16^2 h16 c16^1 d16^3 h16 a16 g16 f16^2 e16^1 f16^2 d'16^3 | % 21
-       \afterGrace e,8^1\trill {d16} c8^3 c'16^1 a,16 h16^2 c16^3 d,16 c''16^1 h16^0 c16 d16^3 h16 c16 a16^2 | % 22
-       \afterGrace gis8^1\trill{fis16} e8^2 h'16^0 d,16^0 c16^2 h16^1 c16 e16^1 fis16^4 gis16 a16 c16 h16 a16^2 | % 23
+       \afterGrace e,8^1\trill {d16} c8^3 c'16^1 a,16 h16^2 c16^3 d,16 c''16^1 h16^0 c16 d16^3 h16 c16^4_\3 a16^1 | % 22
+       \afterGrace gis8^4_\4\trill{fis16} e8^1 h'16^0 d,16^0 c16^2 h16^1 c16 e16^1 fis16^4 gis16 a16 c16 h16 a16^2 | % 23
         d8^4 h,16^1 c16^2 d16^0 e16^1 f16^2 a,16^0 gis8.^4\trill e'16^1 h'16^0 d16^3 c16^1 h16^0 | % 24
         <a, e'^2 c'^1>8. h'16 a16^2 g16 f16^2 e16^1 f16 d16^0 b'16^3 a16 b16 c16^1 d16^4 a16^2 | % 25
         gis16^1 a16 h!16^0 e,16^1 f16^2 d16 c16^2 h16^1 c16^3 e16^1 a16^2 h16^0 <e,_1 h'>8.\trill
