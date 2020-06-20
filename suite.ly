@@ -26,3 +26,6 @@
 
 \pageBreak
 \include "minuetti.ly"
+
+\pageBreak
+\include "gigue.ly"
